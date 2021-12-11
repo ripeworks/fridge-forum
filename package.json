@@ -7,11 +7,13 @@
   },
   "dependencies": {
     "fridge-next": "^9.1.0",
+    "local-storage-fallback": "^4.1.2",
     "next": "^12.0.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@tailwindcss/forms": "^0.3.4",
     "@types/react": "^17.0.34",
     "autoprefixer": "^10.4.0",
     "postcss": "^8.3.11",

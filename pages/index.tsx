@@ -25,7 +25,7 @@ export default function Index({ topics }) {
                         </div>
                         <div className="mt-2 flex">
                           <div className="flex items-center text-sm text-gray-500">
-                            <p>0 Replies</p>
+                            <p>{topic.replies?.length ?? 0} Replies</p>
                           </div>
                         </div>
                       </div>
